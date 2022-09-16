@@ -116,7 +116,7 @@ class CountDown:
             pause_button = Button(self.button_frame, text='Pause',
                                   font=('Helvetica', 12), bg="black", fg="white",
                                   command=self.pause_time)
-            pause_button.place(x=135, y=0)
+            pause_button.place(x=130, y=0)
     # Creating a thread to run the show_time function
 
     def Threading(self):
